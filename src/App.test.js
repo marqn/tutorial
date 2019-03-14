@@ -1,9 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+// https://jestjs.io/docs/en/api <--- w przypadku nieznajomości API 
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+// zmodyfikuj  .toBe(); aby test przeszedł
+
+it('lesson 1 - porównanie dwóch pustych tablic', () => {
+  const tab1 = [];
+  const tab2 = [];
+  
+
+  expect(tab1 === tab2).toBe();
+  expect(tab1 == tab2).toBe();
 });
