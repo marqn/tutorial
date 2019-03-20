@@ -1,2 +1,2 @@
-Plik App.test.js:
-Należy zmodyfikować   .toBe(); aby test przeszedł
+Tutorial
+Należy uzupełnić testy aby wszytskie przeszły w pliku App.test.js
